@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="speedTypingTest" class="bg p-4">
+        <h1 class="hd1 mt-3 mb-3">Speed Typing Test</h1>
+        <p class="pg">On your fingers let's set Go!</p>
+        <div class="d-flex flex-row">
+            <img class="img mt-4" src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" alt="" />
+            <p id="timer" class="time ml-3">0</p>
+            <p class="seconds ml-1">Seconds</p>
+        </div>
+        <div class="bg-div spinner p-4">
+            <p class="qt" id="quoteDisplay"></p>
+            <textarea class="txtAr" name="" id="quoteInput" rows="5" cols="40" placeholder="Type here"></textarea>
+        </div>
+        <p class="mt-4 qt" id="result"></p>
+        <div class="d-flex flex-row mt-4">
+            <button class="btn" type="submit" id="submitBtn">Submit</button>
+            <button class="ml-4" type="submit" id="resetBtn">Reset</button>
+        </div>
+    </div>
+    <div class="d-none spn mt-5" id="spinner">
+        <div class="mt-5 d-flex flex-row justify-content-center">
+            <div class="spinner-border" role="status">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

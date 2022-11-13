@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.spn {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button {
+    height: 50px;
+    width: 120px;
+    color: #323f4b;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #690cb0;
+    color: #ffffff;
+}
+
+.seconds {
+    margin-top: 50px;
+}
+
+.time {
+    font-size: 70px;
+}
+
+.img {
+    height: 70px;
+    width: 70px;
+}
+
+.qt {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.txtAr {
+    width: 100%;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.bg-div {
+    border: 1px;
+    border-color: #9aa5b1;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #f3eaff;
+}
+
+.bg {
+    background-color: #dac0ff;
+}
+
+.hd1 {
+    color: #690cb0;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.pg {
+    color: #3e4c59;
+}
