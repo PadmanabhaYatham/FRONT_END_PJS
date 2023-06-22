@@ -19,6 +19,7 @@ function getQuote() {
 
     inpEl.value = '';
     resultEl.textContent = '';
+    timerEl.textContent = 0;
     clearIntr();
     let counter = 1;
     let counterTimer = function() {
